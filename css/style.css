@@ -227,17 +227,23 @@ body {
         display: flex;
         margin-top: 2rem;
         background-color: #262626;
+        width: 90%;
+        padding-right: 1rem;
+    }
+    .contact .row .form {
+        width: 100%;
+        align-items: right;
     }
     .contact .row .map {
-        width: 50%;
+        width: 30%;
         object-fit: cover;
     }
     .contact .row .form .input-group {
         display: flex;
+        width: 97%;
         align-items: center;
         margin-top: 2rem;
         margin-left: 1rem;
-        width: 100%;
         background-color: var(--bg);
         border: 1px solid #eee;
         padding-left: 2rem;
@@ -245,17 +251,16 @@ body {
     .contact .row .form .input-group input {
         width: 100%;
         margin-left: 2rem;
-        padding: 1.5rem 12rem 1.5rem 2rem;
+        padding: 1.5rem 0 1.5rem 2rem;
         font-size: 1.3rem;
         background-color: none;
     }
     .contact .row .form .btn {
         margin-top: 2rem;
         margin-bottom: 1.5rem;
-        display: flex;
         padding: 1rem 2rem;
         font-size: 1.3rem;
-        margin-left: 15rem;
+        margin-left: 1rem;
         color: #fff;
         cursor: pointer;
         background-color: var(--primary);
@@ -425,8 +430,12 @@ body {
         display: block;
         margin-top: 2rem;
         background-color: #262626;
+        width: 100%;
     }
     .contact .row .map {
+        width: 100%;
+    }
+    .contact .row .form {
         width: 100%;
     }
     .contact .row .form .input-group {
@@ -434,7 +443,7 @@ body {
         align-items: center;
         margin-top: 2rem;
         margin-left: 1rem;
-        width: 93%;
+        width: 97%;
         background-color: var(--bg);
         border: 1px solid #eee;
         padding-left: 2rem;
@@ -442,11 +451,11 @@ body {
     .contact .row .form .input-group input {
         width: 100%;
         margin-left: 2rem;
-        padding: 1.5rem 5rem 1.5rem 2rem;
+        padding: 1.2rem 0 1.2rem 1.5rem;
         font-size: 1.3rem;
         background-color: none;
     }
     .contact .row .form .btn {
-        margin-left: 9.5rem;
+        margin-left: 1rem;
     }
 }
